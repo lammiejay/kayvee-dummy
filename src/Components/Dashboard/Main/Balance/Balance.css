@@ -1,0 +1,70 @@
+.balance-container {
+    width: 50%;
+}
+
+.balances {
+    padding: 24px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin: auto;
+    /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04); */
+}
+
+.balance-header {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.eye-icon {
+    /* margin-top: 8px; */
+    color: #2d0c67;
+}
+
+.currency {
+    color: #292D32;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.currency img {
+    margin-right: 5px;
+    width: 5%;
+    /* border: #2d0c67 1px solid; */
+    border-radius: 50%;
+}
+
+.balance p {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.balance-figures {
+    /* border: 1px solid rebeccapurple; */
+    padding: 0;
+    margin-top: 0px;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.balance-figures p {
+    /* margin-top: 0px; */
+    font-size: 32px;
+    font-weight: 700;
+    /* line-height: 40px; */
+}
+
+.balance-figures span {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.profit {
+    color: #00B906;
+}

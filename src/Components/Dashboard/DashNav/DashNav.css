@@ -1,0 +1,44 @@
+.dashnav-container {
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+} 
+
+.hello-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-nav, .right-nav .notifications {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    justify-content: space-between;
+    width: 10%;
+}
+
+.profileImg {
+    /* padding: 20px; */
+    border-radius: 60px;
+}
+
+.right-nav .notifications {
+    font-size: 20px;
+    height: 100%;
+    width: 30%;
+    position: relative;
+    /* border: 1px solid darkblue; */
+}
+
+.right-nav .notifications .notis-count {
+    font-size: 8px;
+    padding: 4px 8px;
+    border-radius: 20px;
+    position: absolute;
+    top: -8px;
+    right: -5px;
+}

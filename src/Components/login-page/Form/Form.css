@@ -1,0 +1,110 @@
+.form-container {
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    /* border: 1px solid salmon; */
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input-field input {
+    /* color: #07024c; */
+    margin: 10px 0;
+    padding: 15px 15px 15px 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.input-field input::placeholder {
+    color: #a3a3a3;
+}
+
+.preferences {
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.signin-button {
+    font-size: 16px;
+    width: 100%;
+    /* outline: none; */
+    border: none;
+    background: transparent;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-eye {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(31, 31, 31, 0.212);
+    /* border-radius: 4px 4px 4px; */
+    padding: 17px 0;
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    top: 36%;
+    right: 3px;
+    background-color: white;
+}
+
+.password-eye:hover {
+    background-color: aliceblue;
+}
+
+.ordinary {
+    background-color: #3b2baa;
+    color: white;
+}
+
+.google {
+    border: lightgray;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.google:hover, .ordinary:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.forgot-password {
+    color: black;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: slateblue;
+}

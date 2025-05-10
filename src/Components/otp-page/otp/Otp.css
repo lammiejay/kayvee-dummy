@@ -1,0 +1,17 @@
+.otpField {
+    display: flex;
+    gap: 15px;
+}
+
+.otp-input {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    border: 1px solid #c084fc;
+}
+
+.otp-input:focus {
+    outline: #3b2baa solid 1px;
+}
